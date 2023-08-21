@@ -29,7 +29,7 @@ app.use(cookieParser())
 app.use(
   cors({
     credentials: true,
-    origin: front_url,
+    origin: '*',
   })
 )
 
