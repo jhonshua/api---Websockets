@@ -27,7 +27,8 @@ app.use('/uploads', express.static(__dirname + '/uploads'))
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-  origin: "https://front-websockets.vercel.app/",
+  credentials: true,
+  origin: "https://front-websockets.vercel.app",
 }))
 
 //routes
