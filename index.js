@@ -28,7 +28,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
   credentials: true,
-  origin: " http://127.0.0.1:5173",
+  origin: "http://127.0.0.1:5173",
 }))
 
 //routes
