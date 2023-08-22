@@ -28,7 +28,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
   credentials: true,
-  origin: "https://front-websockets.vercel.app",
+  origin: "https://front-websockets-8s2i.vercel.app",
 }))
 
 //routes
