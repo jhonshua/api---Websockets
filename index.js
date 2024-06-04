@@ -27,6 +27,7 @@ app.use('/uploads', express.static(__dirname + '/uploads'))
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
+  methods: 'GET, HEAD, PUT, PATCH, POST, DELETE',
   credentials: true,
   origin:front_url,
 }))
